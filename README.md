@@ -16,26 +16,26 @@ Optional:
 ### Example
 ```HTML
 <html>
-<body>
-<div class='circle drag-absolute'></div>
-<script src='*/scripts/draggr.min.js'></script>
-<script>touchInit()</script>
-</body>
+  <body>
+    <div class='circle drag-absolute'></div>
+    <script src='*/scripts/draggr.min.js'></script>
+    <script>touchInit()</script>
+  </body>
 </html>
 ```
 
 ```CSS
 .circle {
-width: 100px;
-height: 100px;
-border: 1px solid black;
-border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 50px;
 }
 
 .grabbed {
-background-color: red;
+  background-color: red;
 }
 ```
 
-(Also see this slightly more complex example on codepen)[http://codepen.io/bave8782/pen/rVgVOE]
+[Also see this slightly more complex example on codepen](http://codepen.io/bave8782/pen/rVgVOE)
 
